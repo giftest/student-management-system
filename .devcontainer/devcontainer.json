@@ -1,0 +1,9 @@
+{
+    "name": "Node.js & MongoDB",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "dbaeumer.vscode-eslint"
+    ],
+    "forwardPorts": [5000],
+    "postCreateCommand": "yarn install"
+}
